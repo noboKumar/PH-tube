@@ -10,17 +10,33 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="./assets/favIcon.png" type="image/x-icon">
   </head>
   <body class="w-11/12 mx-auto">
-    <nav class="flex justify-between items-center py-5 border-b-2 border-slate-300">
-      <img src="assets/Logo.png" alt="">
+    <nav
+      class="flex justify-between items-center py-5 border-b-2 border-slate-300"
+    >
+      <img src="assets/Logo.png" alt="" />
       <div class="text-lg font-medium btn">Sort by view</div>
-      <div class="text-lg font-medium bg-red-500 text-white px-4 py-2 rounded">Blog</div>
+      <div class="text-lg font-medium bg-red-500 text-white px-4 py-2 rounded">
+        Blog
+      </div>
     </nav>
     <!-- category button -->
-     <section id="category-btn-container" class="py-5 flex gap-3 justify-center items-center">
-      <button class="btn bg-[#25252526] hover:bg-red-500 hover:text-white active:bg-red-300">All</button>
-     </section>
+    <section
+      id="category-btn-container"
+      class="py-5 flex gap-3 justify-center items-center"
+    >
+      <button
+        class="btn bg-[#25252526] hover:bg-red-500 hover:text-white active:bg-red-300"
+      >
+        All
+      </button>
+    </section>
+
+    <!-- video thumbnail -->
+    <section id="video-container" class="grid grid-cols-4 gap-6 py-4">
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
